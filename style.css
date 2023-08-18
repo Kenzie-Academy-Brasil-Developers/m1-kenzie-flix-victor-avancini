@@ -3,10 +3,64 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h2 {
     color: white;
+    font-weight: bold;
+    text-align: center;
 }
 
 h3 {
     color: gray;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+.caixa {
+    height: 20%;
+    width: 20%;
+}
+
+.caixa img {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.caixa h3 {
+    text-align: center;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-color: white;
 }
