@@ -43,12 +43,12 @@ button:hover {
     background-color: white;
 }
 
-button a {
+button {
     text-decoration: none;
     color: white;
 }
 
-button:hover a {
+button:hover {
     background-color: white;
     color: black;
 }
@@ -62,7 +62,7 @@ button:hover a {
     /* border: 1px solid white; */
 }
 
-.card-user h4 {
+.card-user p {
     color: gray;
     text-align: center;
   }
@@ -76,6 +76,6 @@ button:hover a {
     border: 2px solid white;
 }
 
-.card-user:hover h4 {
+.card-user:hover p {
     color: white;
 }
